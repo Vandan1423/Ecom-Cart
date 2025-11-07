@@ -376,45 +376,45 @@ Generate order receipt with customer information.
 
 ### 1. Products Page
 
-**![Products Page](https://drive.google.com/file/d/1S7HpZYb2snD2qffPUMhwYaNnsG1D9uCb/view?usp=sharing)**
+**![Products Page](https://github.com/user-attachments/assets/873aabc9-a4b6-4e16-aa62-4369ed9cffbb)**
 
 ---
 
 ### 2. Product Card Hover State
 
-**![Products Card Hover](https://drive.google.com/file/d/14xeX3YbDwQJcg5lIZ5J1-EKpckJR_vdi/view?usp=sharing)**
+**![Products Card Hover](https://github.com/user-attachments/assets/dd19c45d-a768-4719-a225-f1e9a70a1dec )**
 
 ---
 
 ### 3. Empty Cart
 
-**![Empty Cart](https://drive.google.com/file/d/1kvaLVZUCiNq0LK-pB1TaBgiuMr0w8g9C/view?usp=sharing)**
+**![Empty Cart](https://github.com/user-attachments/assets/02464585-5b5d-428a-898d-1cfe5a1fbdb7)**
 
 ---
 
 ### 4. Cart with Items
 
-**![Cart with Items](https://drive.google.com/file/d/1yUDXLCTkmAqsyuNLrfvI-VzWAfL9ANKC/view?usp=sharing)**
+**![Cart with Items](https://github.com/user-attachments/assets/f9d3abd8-e617-4add-9968-276b5453ee41 )**
 
 ---
 
 ### 5. Toast Notification
 
-**![Toast Notification](https://drive.google.com/file/d/1sFehs6lvGXvGuXK_PG-So4z4__RYsrZK/view?usp=sharing)**
+**![Toast Notification](https://github.com/user-attachments/assets/77194b53-f96d-45df-8e96-685fca200676)**
 
 ---
 
 ### 6. Checkout Modal - Customer Form
 
-**![Checkout Modal](https://drive.google.com/file/d/1TkoT9pC1SyX-_pKbC0IXbdarJKAwF1q4/view?usp=sharing)**
-**![Checkout Modal](https://drive.google.com/file/d/1hUoMvUAWg2t3iKlesc76TFQKKjFIK1wX/view?usp=sharing)**
+**![Checkout Modal](https://github.com/user-attachments/assets/d66ff280-4b67-4804-8287-c20f3da9f460)**
+**![Checkout Modal](https://github.com/user-attachments/assets/587b745a-8927-4476-8059-a2cfb9095109 )**
 
 ---
 
 ### 7. Receipt Modal
 
-**![Receipt Modal](https://drive.google.com/file/d/1GSPx8wefSIhaZpedX7N9ZbtMApRWOtcq/view?usp=sharing)**
-**![Receipt Modal](https://drive.google.com/file/d/1tPjEWD-MqxA7qGFIV0UvWmcgGZtktua8/view?usp=sharing)**
+**![Receipt Modal](https://github.com/user-attachments/assets/8662477e-d8d0-4792-8361-3fc5cf6f1087)**
+**![Receipt Modal](https://github.com/user-attachments/assets/f62a2fe2-cc31-4d2e-8c0c-dc3b9669478f)**
 
 ---
 
