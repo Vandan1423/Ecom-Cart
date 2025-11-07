@@ -1,0 +1,222 @@
+.home {
+    min-height: calc(100vh - 72px);
+    background: linear-gradient(
+        to bottom,
+        var(--neutral-0) 0%,
+        var(--background-secondary) 50%,
+        var(--neutral-0) 100%
+    );
+    padding: var(--spacing-2xl) var(--spacing-xl);
+    animation: fadeIn 0.4s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.page-title {
+    font-size: 2.5rem;
+    font-weight: 800;
+    color: var(--text-primary);
+    margin: 0 0 var(--spacing-2xl);
+    text-align: center;
+    letter-spacing: -1px;
+    position: relative;
+    padding-bottom: var(--spacing-lg);
+}
+
+.page-title::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80px;
+    height: 4px;
+    background: linear-gradient(
+        90deg,
+        var(--primary-600),
+        var(--primary-400),
+        var(--primary-600)
+    );
+    border-radius: var(--radius-full);
+    box-shadow: 0 2px 8px rgba(2, 132, 199, 0.3);
+}
+
+.page-title::before {
+    content: "";
+    position: absolute;
+    bottom: -8px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 40px;
+    height: 4px;
+    background: linear-gradient(
+        90deg,
+        transparent,
+        var(--primary-300),
+        transparent
+    );
+    border-radius: var(--radius-full);
+    animation: shimmer 2s ease-in-out infinite;
+}
+
+@keyframes shimmer {
+    0%,
+    100% {
+        opacity: 0.5;
+        transform: translateX(-50%) scaleX(1);
+    }
+    50% {
+        opacity: 1;
+        transform: translateX(-50%) scaleX(1.5);
+    }
+}
+
+.products-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: var(--spacing-xl);
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 var(--spacing-md);
+}
+
+.loading-state,
+.empty-state {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 400px;
+    font-size: 1.125rem;
+    color: var(--text-secondary);
+    background: var(--surface);
+    border-radius: var(--radius-xl);
+    box-shadow: var(--shadow-sm);
+    margin: var(--spacing-2xl) auto;
+    max-width: 600px;
+    padding: var(--spacing-2xl);
+    border: 1px solid var(--border-light);
+}
+
+.loading-state {
+    position: relative;
+    overflow: hidden;
+}
+
+.loading-state::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(
+        90deg,
+        transparent,
+        rgba(2, 132, 199, 0.1),
+        transparent
+    );
+    animation: loading 1.5s ease-in-out infinite;
+}
+
+@keyframes loading {
+    0% {
+        left: -100%;
+    }
+    100% {
+        left: 100%;
+    }
+}
+
+.empty-state {
+    flex-direction: column;
+    gap: var(--spacing-md);
+    font-weight: 500;
+}
+
+.empty-state::before {
+    content: "🛍️";
+    font-size: 3rem;
+    opacity: 0.5;
+    animation: float 3s ease-in-out infinite;
+}
+
+@keyframes float {
+    0%,
+    100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+}
+
+@media (max-width: 1200px) {
+    .products-grid {
+        grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+        gap: var(--spacing-lg);
+    }
+}
+
+@media (max-width: 768px) {
+    .home {
+        padding: var(--spacing-xl) var(--spacing-md);
+    }
+
+    .page-title {
+        font-size: 2rem;
+        margin-bottom: var(--spacing-xl);
+    }
+
+    .page-title::after {
+        width: 60px;
+        height: 3px;
+    }
+
+    .products-grid {
+        grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+        gap: var(--spacing-md);
+        padding: 0;
+    }
+
+    .loading-state,
+    .empty-state {
+        min-height: 300px;
+        font-size: 1rem;
+        margin: var(--spacing-xl) var(--spacing-md);
+        padding: var(--spacing-xl);
+    }
+
+    .empty-state::before {
+        font-size: 2.5rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .home {
+        padding: var(--spacing-lg) var(--spacing-sm);
+    }
+
+    .page-title {
+        font-size: 1.75rem;
+    }
+
+    .products-grid {
+        grid-template-columns: 1fr;
+        gap: var(--spacing-md);
+    }
+
+    .loading-state,
+    .empty-state {
+        min-height: 250px;
+        margin: var(--spacing-lg) 0;
+    }
+}
