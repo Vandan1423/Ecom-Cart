@@ -376,156 +376,45 @@ Generate order receipt with customer information.
 
 ### 1. Products Page
 
-**[INSERT SCREENSHOT HERE]**
-
-_Screenshot Instructions:_
-
--   Navigate to home page (http://localhost:5173)
--   Ensure products are loaded in a grid layout
--   Show the full page with navbar
--   Capture: Product grid showing multiple products with images, titles, prices, and "Add to Cart" buttons
+**![Products Page](https://drive.google.com/file/d/1S7HpZYb2snD2qffPUMhwYaNnsG1D9uCb/view?usp=sharing)**
 
 ---
 
 ### 2. Product Card Hover State
 
-**[INSERT SCREENSHOT HERE]**
-
-_Screenshot Instructions:_
-
--   Hover over any product card
--   Capture: Product card with hover effects showing enhanced styling
--   Should show product image, title, price clearly
+**![Products Card Hover](https://drive.google.com/file/d/14xeX3YbDwQJcg5lIZ5J1-EKpckJR_vdi/view?usp=sharing)**
 
 ---
 
 ### 3. Empty Cart
 
-**[INSERT SCREENSHOT HERE]**
-
-_Screenshot Instructions:_
-
--   Click cart icon in navbar before adding any items
--   Capture: Cart page showing "Your cart is empty" message
+**![Empty Cart](https://drive.google.com/file/d/1kvaLVZUCiNq0LK-pB1TaBgiuMr0w8g9C/view?usp=sharing)**
 
 ---
 
 ### 4. Cart with Items
 
-**[INSERT SCREENSHOT HERE]**
-
-_Screenshot Instructions:_
-
--   Add 3-4 different products to cart with varying quantities
--   Navigate to cart page
--   Capture: Full cart view showing:
-    -   Cart items with images and details
-    -   Quantity controls for each item
-    -   Remove buttons
-    -   Cart summary sidebar with subtotal and total
-    -   "Proceed to Checkout" button
+**![Cart with Items](https://drive.google.com/file/d/1yUDXLCTkmAqsyuNLrfvI-VzWAfL9ANKC/view?usp=sharing)**
 
 ---
 
-### 5. Cart Item Quantity Update
+### 5. Toast Notification
 
-**[INSERT SCREENSHOT HERE]**
-
-_Screenshot Instructions:_
-
--   In cart, show quantity update controls (+ and - buttons)
--   Capture: Close-up of a cart item showing quantity controls
--   Should demonstrate the update functionality
+**![Toast Notification](https://drive.google.com/file/d/1sFehs6lvGXvGuXK_PG-So4z4__RYsrZK/view?usp=sharing)**
 
 ---
 
-### 6. Toast Notification
+### 6. Checkout Modal - Customer Form
 
-**[INSERT SCREENSHOT HERE]**
-
-_Screenshot Instructions:_
-
--   Add an item to cart to trigger success toast
--   Capture: Toast notification appearing (top-right corner)
--   Should show success message like "Product added to cart"
+**![Checkout Modal](https://drive.google.com/file/d/1TkoT9pC1SyX-_pKbC0IXbdarJKAwF1q4/view?usp=sharing)**
+**![Checkout Modal](https://drive.google.com/file/d/1hUoMvUAWg2t3iKlesc76TFQKKjFIK1wX/view?usp=sharing)**
 
 ---
 
-### 7. Checkout Modal - Customer Form
+### 7. Receipt Modal
 
-**[INSERT SCREENSHOT HERE]**
-
-_Screenshot Instructions:_
-
--   Click "Proceed to Checkout" button
--   Capture: Checkout modal showing:
-    -   Customer information form (name, email, phone fields)
-    -   Order items summary below
-    -   Total price
-    -   "Confirm Order" and "Cancel" buttons
-
----
-
-### 8. Checkout Modal - Order Summary
-
-**[INSERT SCREENSHOT HERE]**
-
-_Screenshot Instructions:_
-
--   Scroll down in checkout modal to show order summary section
--   Capture: Order items list with quantities and subtotals, plus grand total
-
----
-
-### 9. Receipt Modal
-
-**[INSERT SCREENSHOT HERE]**
-
-_Screenshot Instructions:_
-
--   Complete checkout by filling form and clicking "Confirm Order"
--   Capture: Receipt modal showing:
-    -   Order number (ORD-xxxxx)
-    -   Date and time
-    -   Customer information
-    -   Itemized order with prices
-    -   Total amount
-    -   Success message
-
----
-
-### 10. Mobile Responsive View
-
-**[INSERT SCREENSHOT HERE]**
-
-_Screenshot Instructions:_
-
--   Resize browser to mobile width (375px) or use browser dev tools mobile view
--   Capture: Products page on mobile showing responsive grid layout
-
----
-
-### 11. Loading State
-
-**[INSERT SCREENSHOT HERE]**
-
-_Screenshot Instructions:_
-
--   Refresh the page and quickly capture loading spinner
--   OR open network tab, throttle to "Slow 3G" and reload
--   Capture: Loading spinner with text "Loading products..." or "Loading Cart Data..."
-
----
-
-### 12. Error Handling
-
-**[INSERT SCREENSHOT HERE]**
-
-_Screenshot Instructions:_
-
--   Stop backend server (Ctrl+C in backend terminal)
--   Try adding product to cart or refreshing cart page
--   Capture: Error toast notification showing "Failed to Load Cart" or similar error message
+**![Receipt Modal](https://drive.google.com/file/d/1GSPx8wefSIhaZpedX7N9ZbtMApRWOtcq/view?usp=sharing)**
+**![Receipt Modal](https://drive.google.com/file/d/1tPjEWD-MqxA7qGFIV0UvWmcgGZtktua8/view?usp=sharing)**
 
 ---
 
