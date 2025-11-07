@@ -2,7 +2,7 @@
 
 A modern, full-stack shopping cart application built with React, Node.js, Express, and MongoDB. This project demonstrates complete e-commerce cart functionality including product browsing, cart management, and mock checkout flow with receipt generation.
 
-## 📋 Table of Contents
+## Table of Contents
 
 -   [Features](#features)
 -   [Tech Stack](#tech-stack)
@@ -17,7 +17,7 @@ A modern, full-stack shopping cart application built with React, Node.js, Expres
 
 ---
 
-## ✨ Features
+## Features
 
 ### Core Features
 
@@ -36,11 +36,11 @@ A modern, full-stack shopping cart application built with React, Node.js, Expres
 
 ### Bonus Features Implemented
 
--   ✅ **Database Persistence**: MongoDB for products and cart data
--   ✅ **FakeStore API Integration**: Automatic product seeding from external API
--   ✅ **Comprehensive Error Handling**: Joi validation + custom error middleware
--   ✅ **Loading States**: Smooth UX with loading indicators
--   ✅ **Form Validation**: Client and server-side validation
+-  **Database Persistence**: MongoDB for products and cart data
+-  **FakeStore API Integration**: Automatic product seeding from external API
+-  **Comprehensive Error Handling**: Joi validation + custom error middleware
+-  **Loading States**: Smooth UX with loading indicators
+-  **Form Validation**: Client and server-side validation
 
 ---
 
@@ -117,7 +117,7 @@ Ecom-Cart/
 
 ---
 
-## 📦 Prerequisites
+## Prerequisites
 
 Before running this project, ensure you have the following installed:
 
@@ -128,7 +128,7 @@ Before running this project, ensure you have the following installed:
 
 ---
 
-## 🚀 Installation & Setup
+## Installation & Setup
 
 ### 1. Clone the Repository
 
@@ -372,7 +372,7 @@ Generate order receipt with customer information.
 
 ---
 
-## 📸 Screenshots
+## Screenshots
 
 ### 1. Products Page
 
@@ -424,7 +424,7 @@ Generate order receipt with customer information.
 
 ---
 
-## 🔑 Key Functionality
+## Key Functionality
 
 ### Product Management
 
@@ -460,7 +460,7 @@ Generate order receipt with customer information.
 
 ---
 
-## 🛡 Error Handling
+## Error Handling
 
 ### Backend Error Handling
 
@@ -502,7 +502,7 @@ Generate order receipt with customer information.
 
 ---
 
-## 🐛 Troubleshooting
+## Troubleshooting
 
 ### MongoDB Connection Issues
 
@@ -537,8 +537,11 @@ Ensure backend server is running on port 3000 and CORS is enabled in `backend/ap
 
 ---
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 -   [FakeStore API](https://fakestoreapi.com/) for providing mock product data
 -   Vibe Commerce for the internship opportunity
 -   React and Node.js communities for excellent documentation
+
+## Explanation Video
+- https://youtu.be/hgymMd28fOc
