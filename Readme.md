@@ -133,7 +133,7 @@ Before running this project, ensure you have the following installed:
 ### 1. Clone the Repository
 
 ```bash
-git clone <your-repo-url>
+git clone https://github.com/Vandan1423/Ecom-Cart
 cd Ecom-Cart
 ```
 
@@ -171,7 +171,7 @@ npm install
 npm run dev
 ```
 
-The frontend will start on **http://localhost:5173** (or another available port shown in terminal)
+The frontend will start on **http://localhost:5173** 
 
 ### 4. Verify Installation
 
