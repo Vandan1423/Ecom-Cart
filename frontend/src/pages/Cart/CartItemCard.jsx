@@ -7,6 +7,7 @@ export default function CartItemCard({
     changeTotalPrice,
     totalPrice,
     onRemove,
+    onQuantityChange,
 }) {
     const [qty, setQty] = useState(item.qty);
     const [isLoading, setIsLoading] = useState(false);
@@ -31,6 +32,7 @@ export default function CartItemCard({
             if (response.ok && data.success) {
                 setQty(qty + 1);
                 changeTotalPrice(totalPrice + item.productId.price);
+                onQuantityChange(item._id, qty + 1); // Update parent state
             } else {
                 showToast({
                     type: "error",
@@ -72,6 +74,7 @@ export default function CartItemCard({
             if (response.ok && data.success) {
                 setQty(qty - 1);
                 changeTotalPrice(totalPrice - item.productId.price);
+                onQuantityChange(item._id, qty - 1); // Update parent state
             } else {
                 showToast({
                     type: "error",

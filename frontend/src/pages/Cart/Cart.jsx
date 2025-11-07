@@ -43,6 +43,16 @@ export default function Cart() {
         setTotalPrice(newTotalPrice);
     };
 
+    // NEW: Update item quantity in cartData
+    const updateItemQuantity = (itemId, newQty) => {
+        setCartData((prevCartData) => ({
+            ...prevCartData,
+            items: prevCartData.items.map((item) =>
+                item._id === itemId ? { ...item, qty: newQty } : item
+            ),
+        }));
+    };
+
     const removeItemFromCart = (itemId) => {
         setCartData((prevCartData) => ({
             ...prevCartData,
@@ -108,6 +118,7 @@ export default function Cart() {
                                     changeTotalPrice={changeTotalPrice}
                                     totalPrice={totalPrice}
                                     onRemove={removeItemFromCart}
+                                    onQuantityChange={updateItemQuantity}
                                 />
                             ))}
                         </div>
