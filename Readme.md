@@ -382,7 +382,7 @@ Generate order receipt with customer information.
 
 ### 2. Product Card Hover State
 
-**![Products Card Hover](https://github.com/user-attachments/assets/dd19c45d-a768-4719-a225-f1e9a70a1dec )**
+**![Products Card Hover]( https://github.com/user-attachments/assets/dd19c45d-a768-4719-a225-f1e9a70a1dec )**
 
 ---
 
