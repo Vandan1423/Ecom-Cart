@@ -382,7 +382,9 @@ Generate order receipt with customer information.
 
 ### 2. Product Card Hover State
 
-**![Products Card Hover]( https://github.com/user-attachments/assets/ea3bd423-c1c7-453e-8c5f-21fe24e46470 )**
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/ea3bd423-c1c7-453e-8c5f-21fe24e46470" alt="Product Hover" width="600"/>
+</p>
 
 ---
 
@@ -394,7 +396,9 @@ Generate order receipt with customer information.
 
 ### 4. Cart with Items
 
-**![Cart with Items](https://github.com/user-attachments/assets/dc9a79db-4dc0-4171-9e47-c67c71f33522 )**
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/dc9a79db-4dc0-4171-9e47-c67c71f33522" alt="Cart with Items" width="600"/>
+</p>
 
 ---
 
@@ -407,7 +411,9 @@ Generate order receipt with customer information.
 ### 6. Checkout Modal - Customer Form
 
 **![Checkout Modal](https://github.com/user-attachments/assets/d66ff280-4b67-4804-8287-c20f3da9f460)**
-**![Checkout Modal](https://github.com/user-attachments/assets/21cccf6c-d10d-40c8-9d48-f20f8d56f061 )**
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/21cccf6c-d10d-40c8-9d48-f20f8d56f061" alt="Checkout Modal 2" width="600"/>
+</p>
 
 ---
 
